@@ -4,21 +4,23 @@ require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/OpenPeeDeeP/depguard v0.0.0-20180806142446-a69c782687b2
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.6.0
-	github.com/go-critic/go-critic v0.0.0-20181204210945-ee9bf5809ead
+	github.com/go-critic/go-critic v0.3.4
 	github.com/go-lintpack/lintpack v0.5.2
 	github.com/go-ole/go-ole v1.2.1 // indirect
+	github.com/go-toolsmith/strparse v1.0.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/golang/mock v1.1.1
 	github.com/golangci/check v0.0.0-20180506172741-cfe4005ccda2
 	github.com/golangci/dupl v0.0.0-20180902072040-3e9179ac440a
-	github.com/golangci/errcheck v0.0.0-20181003203344-ef45e06d44b6
+	github.com/golangci/errcheck v0.0.0-20181223084120-ef45e06d44b6
 	github.com/golangci/go-misc v0.0.0-20180628070357-927a3d87b613
-	github.com/golangci/go-tools v0.0.0-20180109140146-35a9f45a5db0
+	github.com/golangci/go-tools v0.0.0-20190124090046-35a9f45a5db0
 	github.com/golangci/goconst v0.0.0-20180610141641-041c5f2b40f3
 	github.com/golangci/gocyclo v0.0.0-20180528134321-2becd97e67ee
-	github.com/golangci/gofmt v0.0.0-20181105071733-0b8337e80d98
-	github.com/golangci/gosec v0.0.0-20180901114220-66fb7fc33547
+	github.com/golangci/gofmt v0.0.0-20181222123516-0b8337e80d98
+	github.com/golangci/gosec v0.0.0-20180901114220-8afd9cbb6cfb
 	github.com/golangci/govet v0.0.0-20180818181408-44ddbe260190
 	github.com/golangci/ineffassign v0.0.0-20180808204949-2ee8f2867dde
 	github.com/golangci/lint-1 v0.0.0-20180610141402-4bf9709227d1
@@ -39,6 +41,7 @@ require (
 	github.com/onsi/gomega v1.4.2 // indirect
 	github.com/pelletier/go-toml v1.1.0 // indirect
 	github.com/pkg/errors v0.8.0
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/shirou/gopsutil v0.0.0-20180427012116-c95755e4bcd7
 	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
 	github.com/sirupsen/logrus v1.0.5
@@ -49,13 +52,14 @@ require (
 	github.com/spf13/pflag v1.0.1
 	github.com/spf13/viper v1.0.2
 	github.com/stretchr/testify v1.2.2
-	golang.org/x/crypto v0.0.0-20180505025534-4ec37c66abab // indirect
-	golang.org/x/tools v0.0.0-20190125232054-379209517ffe
+	golang.org/x/tools v0.0.0-20190719005602-e377ae9d6386
 	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
 	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/yaml.v2 v2.2.1
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
-	mvdan.cc/unparam v0.0.0-20190124213536-fbb59629db34
+	mvdan.cc/unparam v0.0.0-20190720180237-d51796306d8f
 	sourcegraph.com/sourcegraph/go-diff v0.5.1-0.20190210232911-dee78e514455
 )
+
+go 1.13
